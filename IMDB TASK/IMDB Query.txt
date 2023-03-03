@@ -1,0 +1,25 @@
+-- CREATE SCHEMA IMDB;
+
+
+
+CREATE TABLE imdb (Media VARCHAR(255), genre VARCHAR(255), reviewer VARCHAR(255), reviews VARCHAR(255), artists VARCHAR(255));
+
+
+SELECT * FROM imdb;
+
+
+ALTER TABLE imdb MODIFY COLUMN reviews INT;
+
+
+DESC imdb;
+
+
+INSERT INTO imdb (Media, genre,reviewer,reviews, artists) values ('videos', 'history', 'Arul', '5', 'Rahul');
+
+INSERT INTO imdb (Media, genre,reviewer,reviews, artists) values ('videos', 'Romamtic', 'Sundhr', '7', 'Kabri');
+
+INSERT INTO imdb (Media, genre,reviewer,reviews, artists) values ('Image', 'Action', 'Vijay', '9', 'Gopi');
+
+INSERT INTO imdb (Media, genre,reviewer,reviews, artists) values ('videos', 'Dramatic', 'Vijay', '4', 'Vijay');
+
+INSERT INTO imdb (Media, genre,reviewer,reviews, artists) values ('Image', 'Famliy', 'Lakshmi', '8', 'Kiruba');
